@@ -12,8 +12,8 @@ defmodule SecureCompare.Mixfile do
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       description: "A simple constant-time comparison algorithm for Elixir",
-      package: package,
-      deps: deps
+      package: package(),
+      deps: deps()
     ]
   end
 
