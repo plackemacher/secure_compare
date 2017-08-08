@@ -4,8 +4,8 @@ defmodule SecureCompare do
   def compare(a, b) when is_nil(a) or is_nil(b), do: false
   def compare(a, b) when byte_size(a) != byte_size(b), do: false
   def compare(a, b) when is_binary(a) and is_binary(b) do
-    a_list = String.to_char_list(a)
-    b_list = String.to_char_list(b)
+    a_list = String.to_charlist(a)
+    b_list = String.to_charlist(b)
 
     compare(a_list, b_list)
   end
