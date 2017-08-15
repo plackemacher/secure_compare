@@ -4,7 +4,7 @@ defmodule SecureCompare.Mixfile do
   def project do
     [
       app: :secure_compare,
-      version: "0.0.2",
+      version: "0.1.0",
       elixir: "~> 1.3",
       name: "secure_compare",
       source_url: "git@github.com:plackemacher/secure_compare.git",
