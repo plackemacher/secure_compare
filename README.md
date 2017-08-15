@@ -1,4 +1,4 @@
-# SecureCompare for Elixir
+# SecureCompare for Elixir [![Build Status](https://travis-ci.org/plackemacher/secure_compare.svg?branch=master)](https://travis-ci.org/plackemacher/secure_compare)
 
 A simple constant-time comparison algorithm for Elixir based on the `Devise.secure_compare` method found [here](https://github.com/plataformatec/devise/blob/69bee06ceee6280b54304928bb6e55c5064abad8/lib/devise.rb#L483).
 
