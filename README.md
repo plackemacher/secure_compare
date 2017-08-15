@@ -8,6 +8,6 @@ The package can be installed by adding `secure_compare` to your list of dependen
 
 ```elixir
 def deps do
-  [{:secure_compare, "~> 0.0.2"}]
+  [{:secure_compare, "~> 0.1.0"}]
 end
 ```
