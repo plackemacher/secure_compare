@@ -11,3 +11,12 @@ def deps do
   [{:secure_compare, "~> 0.1.0"}]
 end
 ```
+
+## Usage
+
+```elixir
+a = "123"
+b = "456"
+
+SecureCompare.compare(a, b) # => false
+````
