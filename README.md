@@ -23,3 +23,6 @@ b = "456"
 
 SecureCompare.compare(a, b) # => false
 ````
+
+## Alternatives
+If you already include `:plug` in your deps (or phoenix which is built on plug), just use the [Plug.Crypto.secure_compare/2 function](https://hexdocs.pm/plug/Plug.Crypto.html#secure_compare/2).
